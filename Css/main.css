@@ -1,25 +1,27 @@
 body,div,dl,dt,dd,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
-html,body {margin:0;padding:0;}
 table {border-collapse:collapse; border-spacing:0;}
 fieldset,img {border:0;}
 input{border:1px solid #b0b0b0; padding:3px 5px 4px; color:#979797; width:190px;}
 ol,ul {list-style:none;}
+link{text-decoration:none;}
 
-/* ........................ */
  
 body
 {
-	
+	background-color: black;
+	font-family: 'Bellefair', serif;
+	/*font-family: 'Indie Flower', cursive;*/
 }
-
-
-
-h6
+h2
 {
-
+	color: red;
 }
-
-/* ........................ */
+ul > li > ul {
+   display: none;
+}
+ul > li:hover > ul {
+   display: block;
+}
 
 #space
 {
@@ -28,9 +30,10 @@ h6
 	margin-bottom: auto;
 	margin-left: auto;
 	text-align:center;
+	
 }
 
-#sphare_base
+#base
 {
 	width: 80%;
 	height: 80%;
@@ -45,104 +48,202 @@ h6
 	width: 100%;
 	height: 100%;
 }
-
-	
-/* ........................ */
-
-
-
-.sphare_test1
+.list
 {
-	color: #000000;
-	font-size: 15px;
-	top:15%;
-	left:10%;
-}
-
-.sphare_test2
-{
-	color: #000000;
-	font-size: 15px;
-	top:30%;
-	left:30%;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 115%;
+	text-decoration: none;
 	
 }
 
-.sphare_test3
+.themes
 {
-
-	color: #000000;
-	font-size: 15px;
-	top:45%;
-	left:80%;
-}
-.sphare_test4
-{
-
-	color: #000000;
-	font-size: 15px;
-	top:60%;
-	left:30%;
-}
-.sphare_test5
-{
-
-	color: #000000;
-	font-size: 15px;
-	top:85%;
-	left:90%;
-}	
-
-#in_test1	
-{
-	color:#0000E0;
-	font-size: 300%;
-	position: absolute; 
-	top: 4%;
-	left: 58%;
-	
-}
-
-#in_test2	
-{
-	color: #0000E0;
-	font-size: 150%;
-	text-align: center;
-	position: absolute; 
-	top: 78%;
-	left: 39%;
-	
-}
-
-#in_test3	
-{
-	color: #000000;
-	font-size: 30px;
-	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 135%;
+	text-decoration: none;
 	position: absolute; 
 	top: 40%;
-	left: 58%;
+	left: 14%;
+}
+
+.themes:before
+{
+	color: #ffffff;
+	
+}
+.themes:after
+{
+	color: #000000;
+	
+}
+.themes:hover
+{
+	color: gray;
+	text-shadow: 2px 2px 30px yellow;
+	font-size: 155%;
+}
+
+
+.in_test1	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 135%;
+	text-decoration: none;
+	position: absolute; 
+	top: 24%;
+	left: 68%;
+	
+}
+.in_test_1a	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 135%;
+	text-decoration: none;
+	position: absolute; 
+	top: 28%;
+	left: 70%;
+}
+
+
+.in_test1:before
+{
+	color: #ffffff;
+	
+}
+.in_test1:after
+{
+	color: #000000;
+	
+}
+.in_test1:hover
+{
+	color: gray;
+	text-shadow: 2px 2px 30px yellow;
+	font-size: 185%;
+}
+
+
+
+.in_test2	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 58%;
+	left: 52%;
 	
 }
 
-#in_test4	
+.in_test2:before
 {
 	color: #000000;
-	font-size: 30px;
+	
+}
+.in_test2:after
+{
+	color: #000000;
+	
+}
+.in_test2:hover
+{
+	color: white;
+	text-shadow: 2px 2px 30px purple;
+	font-size: 250%;
+	
+}
+
+
+.in_test3	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 250%;
 	text-align: center;
+	text-decoration: none;
 	position: absolute; 
-	top: 20%;
+	top: 32%;
+	left: 61%;
+	
+}
+.in_test3:before
+{
+	color: #000000;
+	
+}
+.in_test3:after
+{
+	color: #000000;
+	
+}
+.in_test3:hover
+{
+	color: white;
+	text-shadow: 2px 2px 30px red;
+	font-size: 300%;
+}
+
+.in_test4	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 27%;
 	left: 36%;
 	
 }
-
-#in_test5	
+.in_test4:before
 {
 	color: #000000;
-	font-size: 30px;
-	text-align: center;
-	position: absolute; 
-	top: 48%;
-	left: 8%;
 	
 }
+.in_test4:after
+{
+	color: #000000;
+	
+}
+.in_test4:hover
+{
+	color: white;
+	text-shadow: 2px 2px 30px green;
+	font-size: 250%;
+}
+
+
+.in_test5	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 150%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 60%;
+	left: 13%;
+}
+.in_test5:before
+{
+	color: #000000;
+	
+}
+.in_test5:after
+{
+	color: #000000;
+	
+}
+.in_test5:hover
+{
+	color: gray;
+	text-shadow: 2px 2px 30px yellow;
+	font-size: 185%;
+}
+
