@@ -1,0 +1,3 @@
+PL	http://16bit.pl/platform/pc
+PL	http://stare.e-gry.net/
+ENG	http://www.old-games.com/

@@ -1,0 +1,307 @@
+body,div,dl,dt,dd,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+table {border-collapse:collapse; border-spacing:0;}
+fieldset,img {border:0;}
+input{border:1px solid #b0b0b0; padding:3px 5px 4px; color:#979797; width:190px;}
+ol,ul {list-style:none;}
+link{text-decoration:none;}
+
+ 
+body
+{
+	background-color: black;
+	font-family: 'Bellefair', serif;
+	/*font-family: 'Indie Flower', cursive;*/
+}
+h2
+{
+	color: red;
+}
+ul > li > ul {
+   display: none;
+}
+ul > li:hover > ul {
+   display: block;
+}
+
+#space
+{
+
+	margin-bottom: auto;
+	margin-left: auto;
+	text-align:center;
+	
+}
+
+#base
+{
+	width: 80%;
+	height: 80%;
+	border: 2px solid black;
+	position: absolute;
+	margin: 5%;
+	
+}
+
+#img_orbit
+{
+	width: 100%;
+	height: 100%;
+}
+
+.in_test1	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 135%;
+	text-decoration: none;
+	position: absolute; 
+	top: 24%;
+	left: 81%;
+	
+}
+.in_test_1a	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 135%;
+	text-decoration: none;
+	position: absolute; 
+	top: 28%;
+	left: 70%;
+}
+
+
+.in_test1:before
+{
+	color: #ffffff;
+	
+}
+.in_test1:after
+{
+	color: #000000;
+	
+}
+.in_test1:hover
+{
+	color: gray;
+	text-shadow: 2px 2px 30px yellow;
+	font-size: 185%;
+}
+
+
+
+.in_test2	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 81%;
+	left: 52%;
+	
+}
+
+.in_test2:before
+{
+	color: #000000;
+	
+}
+.in_test2:after
+{
+	color: #000000;
+	
+}
+.in_test2:hover
+{
+	color: white;
+	text-shadow: 2px 2px 30px blue;
+	font-size: 250%;
+	
+}
+
+
+.in_test3	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 250%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 36%;
+	left: 13%;
+	
+}
+.in_test3:before
+{
+	color: #000000;
+	
+}
+.in_test3:after
+{
+	color: #000000;
+	
+}
+.in_test3:hover
+{
+	color: white;
+	text-shadow: 2px 2px 30px yellow;
+	font-size: 300%;
+}
+
+.in_test4	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 28%;
+	left: 36%;
+	
+}
+.in_test4:before
+{
+	color: #000000;
+	
+}
+.in_test4:after
+{
+	color: #000000;
+	
+}
+.in_test4:hover
+{
+	color: white;
+	text-shadow: 2px 2px 30px green;
+	font-size: 250%;
+}
+
+
+.in_test5	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 150%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 60%;
+	left: 13%;
+}
+.in_test5:before
+{
+	color: #000000;
+	
+}
+.in_test5:after
+{
+	color: #000000;
+	
+}
+.in_test5:hover
+{
+	color: gray;
+	text-shadow: 2px 2px 30px yellow;
+	font-size: 185%;
+}
+
+.in_point1
+{
+	color: black;
+	text-shadow: 2px 2px 5px black;
+	font-size: 150%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 6%;
+	left: 12%;
+}
+
+
+.in_point2
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 150%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 60%;
+	left: 70%;
+}
+.in_point2:before
+{
+	color: #000000;
+	
+}
+.in_point2:after
+{
+	color: #000000;
+	
+}
+.in_point2:hover
+{
+	color: gray;
+	text-shadow: 2px 2px 30px yellow;
+	font-size: 185%;
+}
+
+.in_point3
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 150%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 50%;
+	left: 48%;
+}
+.in_point3:before
+{
+	color: #000000;
+	
+}
+.in_point3:after
+{
+	color: #000000;
+	
+}
+.in_point3:hover
+{
+	color: gray;
+	text-shadow: 2px 2px 30px yellow;
+	font-size: 185%;
+}
+
+.in_point4
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 150%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 50%;
+	left: 85%;
+}
+.in_point4:before
+{
+	color: #000000;
+	
+}
+.in_point4:after
+{
+	color: #000000;
+	
+}
+.in_point4:hover
+{
+	color: gray;
+	text-shadow: 2px 2px 30px yellow;
+	font-size: 185%;
+}
