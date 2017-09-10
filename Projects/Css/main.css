@@ -88,7 +88,28 @@ ul > li:hover > ul {
 	font-size: 185%;
 }
 
-
+a.in_test1 span {
+    display: none;
+    padding: 1px 1px;
+    margin-left: 0px;
+    width: 230px;
+	height: 230px;
+}
+img {
+	border: none;
+}
+a.in_test1:hover span{
+    display: inline;
+    position: absolute;
+	margin: 15px 0 0 5px;
+    background: #dddddd;
+    border: 1px solid #FFFFFF;
+    color: #000000;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+	text-align: center;
+}
 
 .in_test2	
 {
@@ -120,7 +141,28 @@ ul > li:hover > ul {
 	font-size: 250%;
 	
 }
-
+a.in_test2 span {
+    display: none;
+    padding: 1px 1px;
+    margin-left: 0px;
+    width: 230px;
+	height: 230px;
+}
+img {
+	border: none;
+}
+a.in_test2:hover span{
+    display: inline;
+    position: absolute;
+	margin: 15px 0 0 5px;
+    background: #dddddd;
+    border: 1px solid #FFFFFF;
+    color: #000000;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+	text-align: center;
+}
 
 .in_test3	
 {
@@ -150,6 +192,28 @@ ul > li:hover > ul {
 	text-shadow: 2px 2px 30px yellow;
 	font-size: 300%;
 }
+a.in_test3 span {
+    display: none;
+    padding: 1px 1px;
+    margin-left: 0px;
+    width: 230px;
+	height: 230px;
+}
+img {
+	border: none;
+}
+a.in_test3:hover span{
+    display: inline;
+    position: absolute;
+	margin: 15px 0 0 5px;
+    background: #dddddd;
+    border: 1px solid #FFFFFF;
+    color: #000000;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+	text-align: center;
+}
 
 .in_test4	
 {
@@ -175,11 +239,32 @@ ul > li:hover > ul {
 }
 .in_test4:hover
 {
-	color: white;
-	text-shadow: 2px 2px 30px green;
-	font-size: 250%;
+	color: gray;
+	text-shadow: 2px 2px 30px yellow;
+	font-size: 185%;
 }
-
+a.in_test4 span {
+    display: none;
+    padding: 1px 1px;
+    margin-left: 0px;
+    width: 230px;
+	height: 230px;
+}
+img {
+	border: none;
+}
+a.in_test4:hover span{
+    display: inline;
+    position: absolute;
+	margin: 15px 0 0 5px;
+    background: #dddddd;
+    border: 1px solid #FFFFFF;
+    color: #000000;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+	text-align: center;
+}
 
 .in_test5	
 {

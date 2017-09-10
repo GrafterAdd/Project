@@ -8,18 +8,15 @@ link{text-decoration:none;}
  
 body
 {
-
+	background-color: black;
 }
 
+h1
+{
+	color:white;
+}
 #space
 {
-	margin-bottom: auto;
-	margin-left: auto;
-	text-align:center;
-}
-#orbit
-{
-	padding:0,5%;	
 	margin-bottom: auto;
 	margin-left: auto;
 	text-align:center;
