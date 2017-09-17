@@ -1,0 +1,240 @@
+body,div,dl,dt,dd,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+table {border-collapse:collapse; border-spacing:0;}
+fieldset,img {border:0;}
+input{border:1px solid #b0b0b0; padding:3px 5px 4px; color:#979797; width:190px;}
+ol,ul {list-style:none;}
+link{text-decoration:none;}
+
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+body{
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	background: #000000;
+	font-weight: 400;
+	font-size: 15px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	
+}
+.ie7 body{
+	overflow:hidden;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+.container{
+	position: relative;
+	text-align: center;
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	padding: 30px 30px 10px 20px;
+	margin: 0px 20px 10px 20px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: left;
+}
+.container > header h1{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 35px;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    padding: 0px 0px 5px 0px;
+}
+.container > header h1 span{
+
+}
+.container > header h2, p.info{
+	font-size: 16px;
+	font-style: italic;
+	color: #f8f8f8;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.top{
+	font-family: Arial, sans-serif;
+	line-height: 24px;
+	font-size: 11px;
+	width: 100%;
+	background-image: url("img/black_thread.png");
+    background-repeat: repeat-x;
+	opacity: 0.9;
+	text-transform: uppercase;
+	z-index: 9999;
+	position: relative;
+	
+}
+.top a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #ddd;
+	display: block;
+	float: left;
+}
+.top a:hover{
+	color: #fff;
+}
+.top span.right{
+	float: right;
+}
+.top span.right a{
+	float: none;
+	display: inline;
+}
+
+p.menu{
+	display: block;
+	padding: 15px 0px;
+}
+p.menu a,
+p.menu a.active,
+p.menu a.active:hover{
+    display: inline-block;
+	border: 1px solid #000040;
+	padding: 4px 10px 3px;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 2px 3px;
+	font-weight: 800;
+	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+	color:#fff;
+	border-radius: 5px;
+	background: #000080;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000080), color-stop(44%,#000080), color-stop(100%,#000080));
+	background: -webkit-linear-gradient(top, #000080 0%,#000040 44%,#000080 100%);
+}
+p.menu a:hover{
+	background: #000080;
+}
+p.menu a:active{
+	background: #000080;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000080), color-stop(56%,#000080), color-stop(100%,#000080));
+	background: -webkit-linear-gradient(top,#000080 0%,#000080 56%,#000080 100%);
+	-webkit-box-shadow: 0px 1px 1px rgba(255,255,255,0.9);
+}
+p.menu a.active,
+p.menu a.active:hover{
+	color: #A5727D;
+	background: silver;
+}
+
+@media screen and (max-width: 767px) {
+	.container > header{
+		text-align: center;
+	}
+	p.menu {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+}
+
+.bg,
+.bg:after { 
+    background: transparent url(../img/b2.jpg) repeat top left; 
+	position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0; 
+}
+
+.bg li span { 
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: 0;
+	-webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 36s linear infinite 0s;
+
+}
+.bg li div { 
+    z-index: 1000;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    -webkit-animation: titleAnimation 36s linear infinite 0s;
+}
+.bg li div h3 { 
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 240px;
+    padding: 0;
+    line-height: 200px; 
+}
+
+.bg li:nth-child(1) span { 
+    background-image: url(../img/b1.jpg) 
+}
+.bg li:nth-child(2) span { 
+    background-image: url(../img/b2.jpg);
+    -webkit-animation-delay: 6s;
+}
+
+.bg li:nth-child(2) div { 
+    -webkit-animation-delay: 10s;
+}
+
+
+@-webkit-keyframes imageAnimation { 
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-webkit-keyframes titleAnimation { 
+    0% { opacity: 0 }
+    8% { opacity: 1 }
+    17% { opacity: 1 }
+    19% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+.no-cssanimations .bg li span{
+	opacity: 1;
+}
+
+@media screen and (max-width: 1140px) { 
+    .bg li div h3 { font-size: 140px }
+}
+@media screen and (max-width: 600px) { 
+    .bg li div h3 { font-size: 80px }
+}
